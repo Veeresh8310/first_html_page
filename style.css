@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --gradient-color:linear-gradient(rgb(254, 0, 0),#fdf002);
+    --background-color:rgb(207, 212, 72)
+}
+
+body{
+    font-family: 'Dancing Scripts',cursive;
+    background-color: var(--background-color);
+    border: 2rem solid transparent;
+    border-image: linear-gradient(95deg,rgb(155, 16, 255),rgb(184, 22, 22));
+    border-image-slice: 2;
+    mask-border-outset: 10px;
+}
+
+nav
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: rgb(47, 0, 255);
+    background-color: var(--background-color);
+    top:0;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.logo{
+    width: 35%;
+    height: 100px;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 10rem;
+    font-size: 2.5rem;
+}
+ul{
+    color: rgb(212, 0, 255);
+    background-color: var(--background-color);
+}
+
+.items
+{
+    width: 50%;
+    height: 8vh;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    color: blueviolet;
+    background-color: var(--background-color);
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.items li a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+}
+
+.font{
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: rgb(212, 0, 255);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.font h3{
+    padding-top: 10rem;
+
+}
+
+h4{
+    font-size: 1.5rem;
+    text-align: center;
+    background: #0b0a0a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5rem;
+    text-justify: newspaper;
+
+}
